@@ -48,7 +48,7 @@ This project implements a notification service with:
 
 ### 🔗 Base URL
 
-`https://notification-backend-jbmh.onrender.com`
+`https://backend-notification-cidq.onrender.com`
 
 ---
 
@@ -59,7 +59,7 @@ This project implements a notification service with:
 Create a new user to whom notifications can be sent.
 
 🔗 **Example URL:**  
-`https://notification-backend-jbmh.onrender.com/users/create-user`
+`https://backend-notification-cidq.onrender.com/users/create-user`
 
 ---
 
@@ -67,9 +67,9 @@ Create a new user to whom notifications can be sent.
 
 ```json
 {
-  "name": "Jatin Chaudhary",
-  "email": "09jatinchaudhary2005@gmail.com",
-  "phone": "+918273053455"
+  "name": "Devanshu Pundir",
+  "email": "devanshupundir599@gmail.com",
+  "phone": "+916005804090"
 }
 ```
 
@@ -79,9 +79,9 @@ Create a new user to whom notifications can be sent.
 {
   "statusCode": 201,
   "data": {
-    "name": "Jatin Chaudhary",
-    "email": "09jatinchaudhary2005@gmail.com",
-    "phone": "+918273053455",
+    "name": "Devanshu Pundir",
+    "email": "devanshupundir599@gmail.com",
+    "phone": "+916005804090",
     "_id": "68297daabfe491bada2f2393",
     "createdAt": "2025-05-18T06:26:50.408Z",
     "updatedAt": "2025-05-18T06:26:50.408Z",
@@ -99,7 +99,7 @@ Create a new user to whom notifications can be sent.
 Send a notification (email, SMS, or in-app).
 
 🔗 **Example URL:**  
-`https://notification-backend-jbmh.onrender.com/notifications`
+`https://backend-notification-cidq.onrender.com/notifications`
 
 ---
 
@@ -139,7 +139,7 @@ If you select email or sms as the notification type, you will actually receive a
 Fetch all notifications sent to a specific user.
 
 🔗 **Example URL:**  
-`https://notification-backend-jbmh.onrender.com/users/68286a4e9a51b791bdfdfaec/notifications`
+`https://backend-notification-cidq.onrender.com/users/68286a4e9a51b791bdfdfaec/notifications`
 
 ---
 
@@ -193,7 +193,7 @@ Fetch all notifications sent to a specific user.
 Returns the current status of a specific notification.
 
 🔗 **Example URL:**  
-`http://localhost:3000/notifications/6828d59f33e30d6b9041c21d/status`
+`https://backend-notification-cidq.onrender.com/notifications/6828d59f33e30d6b9041c21d/status`
 
 ---
 
