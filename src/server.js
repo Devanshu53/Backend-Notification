@@ -20,7 +20,7 @@ app.use(cookieParser());
 
 
 app.get("/", (req, res) => {
-  res.send("Welcome To Notifications");
+  res.send("Welcome to the Notifications API");
 });
 
 
@@ -40,6 +40,8 @@ connectDB()
     app.listen(PORT, () => {
       console.log(`Server is running at port: ${PORT}`);
     });
+
+    import("./queue/consumer.js");
   })
   .catch((err) => {
     console.log("MongoDB connection failed:", err);
